@@ -1,0 +1,1 @@
+ALTER TABLE `settings` ADD `head_scripts` TEXT NULL AFTER `seo_keywords`;

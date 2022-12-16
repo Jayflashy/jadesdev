@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jadesdev.com.ng/</loc>
+  <lastmod>2022-10-07T22:41:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jadesdev.com.ng/about</loc>
+  <lastmod>2022-10-07T22:41:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jadesdev.com.ng/services</loc>
+  <lastmod>2022-10-07T22:41:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jadesdev.com.ng/contact</loc>
+  <lastmod>2022-10-07T22:41:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

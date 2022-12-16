@@ -1,0 +1,225 @@
+/* reset css start */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto&family=Playfair+Display&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #6f6f6f;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    position: relative;
+    line-height: 1.7;
+    background-color: #f8f6ff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* reset css end */
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+@media (max-width: 991px) {
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 575px) {
+    h2 {
+        font-size: 28px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+@media (max-width: 767px) {
+    h4 {
+        font-size: 20px;
+    }
+}
+
+h5 {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    h5 {
+        font-size: 18px;
+    }
+}
+
+h6 {
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    color: #525252;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+}
+
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+    font-family: "Poppins", sans-serif;
+    color: #525252;
+    font-weight: 600;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    line-height: 1.4;
+}
+
+p, li, span {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* button css start */
+.cmn-btn {
+    padding: 12px 35px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #6e41ff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #ffffff;
+}
+
+.cmn-btn:hover {
+    color: #ffffff;
+    background-color: #5b28ff;
+}
+
+/* button css end */
+/* error-404 css start */
+
+.error {
+    padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #000036;
+}
+
+  .error-num, .error-num__clip, .error-num__clip-left, .error-num__clip-left::before, .error-num__clip::before {
+    position: relative;
+    font-size: 300px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: white;
+    -webkit-animation: colorSplit 1.25s steps(2, end) infinite;
+            animation: colorSplit 1.25s steps(2, end) infinite;
+  }
+
+
+@media (max-width: 1199px) {
+    .error-num, .error-num__clip, .error-num__clip-left, .error-num__clip-left::before, .error-num__clip::before {
+        font-size: 220px;
+    }
+}
+
+@media (max-width: 575px) {
+    .error-num, .error-num__clip, .error-num__clip-left, .error-num__clip-left::before, .error-num__clip::before {
+        font-size: 150px;
+    }
+}
+@media (max-width: 380px) {
+    .error-num, .error-num__clip, .error-num__clip-left, .error-num__clip-left::before, .error-num__clip::before {
+        font-size: 120px;
+    }
+}
+
+
+  @-webkit-keyframes colorSplit {
+    25% {
+      text-shadow: -0.02em 0 0 #F44336, 0.025em 0 0 #5352ed;
+    }
+    75% {
+      text-shadow: -0.035em 0 0 #F44336, 0.04em 0 0 #5352ed;
+    }
+  }
+  @keyframes colorSplit {
+    25% {
+      text-shadow: -0.02em 0 0 #F44336, 0.025em 0 0 #5352ed;
+    }
+    75% {
+      text-shadow: -0.035em 0 0 #F44336, 0.04em 0 0 #5352ed;
+    }
+  }
+  
+  .error-num__clip, .error-num__clip-left, .error-num__clip-left::before, .error-num__clip::before {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    z-index: 10;
+    color: #333;
+    overflow: visible;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 25%, 0 25%, 0 30%, 100% 30%, 100% 50%, 0 50%, 0 60%, 100% 60%, 100% 65%, 0 65%, 0 80%, 100% 80%, 100% 85%, 0 85%, 0% 0%);
+            clip-path: polygon(0% 0%, 100% 0, 100% 25%, 0 25%, 0 30%, 100% 30%, 100% 50%, 0 50%, 0 60%, 100% 60%, 100% 65%, 0 65%, 0 80%, 100% 80%, 100% 85%, 0 85%, 0% 0%);
+    -webkit-animation: glitch 1s steps(2, start) infinite;
+            animation: glitch 1s steps(2, start) infinite;
+  }
+  @-webkit-keyframes glitch {
+    30% {
+      left: 0;
+    }
+    to {
+      left: 0;
+    }
+  }
+  @keyframes glitch {
+    30% {
+      left: 0;
+    }
+    to {
+      left: 0;
+    }
+  }
+  .error-num__clip::before, .error-num__clip-left::before {
+    content: attr(data-text);
+    left: 0.05em;
+    color: white;
+    z-index: 9;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 26%, 0 26%, 0 29%, 100% 29%, 100% 51%, 0 51%, 0 59%, 100% 59%, 100% 66%, 0 66%, 0 79%, 100% 79%, 100% 86%, 0 86%, 0% 0%);
+            clip-path: polygon(0% 0%, 100% 0, 100% 26%, 0 26%, 0 29%, 100% 29%, 100% 51%, 0 51%, 0 59%, 100% 59%, 100% 66%, 0 66%, 0 79%, 100% 79%, 100% 86%, 0 86%, 0% 0%);
+  }
+/* error-404 css end */
